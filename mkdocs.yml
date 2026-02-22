@@ -5,7 +5,7 @@ repo_name: "ZoeDrift/rubbish"
 site_author: zzz
 
 #版权信息
-copyright: 'Copyright &copy; 2025 我不是日暮'
+copyright: 'Copyright &copy; 2026 Zoeeeee'
 
 theme:
   name: material
@@ -116,7 +116,7 @@ plugins:
   - encryptcontent: #加密配置
       global_password: null
       title_prefix: "🔐"
-      summary: "木头嘿嘿。"
+      summary: "其实是我电脑自动写的，与本人无关"
       placeholder: "请输入密码🔑"
       encryption_failure_message: "写好了再发"
       decryption_failure_message: "密码错误，请再试一次！"
@@ -185,3 +185,14 @@ nav:
   - 🐰:
       - 概述: blog/work/index.md
       - 1: blog/work/1.md
+  - 🔧:
+      - latex: blog/tool/latex.md
+      - markdown: blog/tool/markdown.md
+      - git: blog/tool/git.md
+
+      - mkdocs: blog/tool/mkdocs.md
+      - web开发: 
+          - html、css、js: blog/tool/web开发/三件套.md
+          - vue: blog/tool/web开发/vue.md
+  - 💬:
+      - 碎碎念: blog/emm/sum.md
